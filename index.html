@@ -124,99 +124,167 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </a>
-    </div>
-    <br id="BMR">
+    </div >
+    <p id="BMR"></p>
+    <br>
     <div class="container">
         <BR>
-        <center><h1>BMR CALCULATOR</h1>
+        <center>
+            <h1>WHAT's BMR AND BMI</h1>
+            <hr style="width: 1000px;">
+            <h3>BMR CALCULATOR</h3>
             <h5>The Basal Metabolic Rate (BMR) Calculator estimates your basal
                 metabolic rate the amount of energy expended while at rest in a
                 neutrally temperate environment, and in a post-absorptive state.
-            </h5>
-            <hr style="width: 1000px;">
-            <br>
-            <h3>INPUT YOUR DATA FOR CALCULATOR</h3>
-            <BR>
-        </center>
-        <div class="container">
-            <form>
-                <div class="row">
-                    <div class="col">
-                        &nbsp; &nbsp;<label for="weight"> Weight </label>
-                        <input type="number" class="form-control"
-                            placeholder="Kg.">
-                    </div>
-                    <div class="col">
-                        &nbsp; &nbsp; <label for="weight"> Height </label>
-                        <input type="number" class="form-control"
-                            placeholder="Cm.">
-                    </div>
-                    <div class="col">
-                        &nbsp; &nbsp; <label for="weight"> Age </label>
-                        <input type="number" class="form-control"
-                            placeholder="Year.">
-                    </div>
-                    <div class="health__calculate-sex">
+            </h5><BR>
+            <h3>BMI CALCULATOR</h3>
+            <h5>The body mass index (BMI) is a measure that uses your height
+                and weight to work out if your weight is healthy.
 
-                        <div class="row">
-                            <div class="col">
-                                &nbsp; &nbsp; &nbsp; <p>Select Sex</p>
-                                <input type="radio" id="male" name="gender"
-                                    value="male">
-                                <label for="male"> Male </label> &nbsp; &nbsp;
-                                &nbsp;
-                                <input type="radio" id="Female" name="gender"
-                                    value="Female">
-                                <label for="Female"> Female </label><br>
-                            </div>
-                            <br>
-                            <button type="button" class="btn btn-dark">Calculate</button>
-                        </div>
-                    </form><br>
-
-                </div>
-                <br>
+                The BMI calculation divides an adult's weight in kilograms
+                by their height in metres squared. For example, A BMI of 25
+                means 25kg/m2.
+            </h5>  
+<BR>
+    </center>                  
+         </form>
             </div>
-        </div>
-        <br>
-        <center><h4>Your calories burned
-                BMR (Basal Metabolic Rate)</h4>
-            <div class="input-group mb-1">
-                <span class="input-group-text bg-dark text-white" color="dark">calories</span>
-                <input type="text" class="form-control" aria-label="Amount (to
-                    the nearest dollar)">
-                <span class="input-group-text bg-dark text-white" color="dark">per
-                    day</span>
-            </div><BR>
-        </div>
+              </div>
     </center><BR><BR>
     <div class="p-3 mb-2 bg-dark text-white">
         <div class="container"><br>
-            <center><h1>BMI CALCULATOR</h1>
-                <h5>The body mass index (BMI) is a measure that uses your height
-                    and weight to work out if your weight is healthy.
-
-                    The BMI calculation divides an adult's weight in kilograms
-                    by their height in metres squared. For example, A BMI of 25
-                    means 25kg/m2.
-                </h5>
-                <hr style="width: 1000px;">
-                <br>
-                <h3>INPUT YOUR DATA FOR CALCULATOR</h3>
-                <BR>
-            </center>
-            <div class="row">
-                <div class="col">
-                    &nbsp; &nbsp;<label for="weight"> Weight </label>
-                    <input type="number" class="form-control"
-                        placeholder="Kg.">
-                </div>
-                <div class="col">
-                    &nbsp; &nbsp; <label for="weight"> Height </label>
-                    <input type="number" class="form-control"
-                        placeholder="Cm.">
-                </div>
-                <BR><br>
-                <button type="button" class="btn btn-light" width="20px">Calculate</button>
+           <br>
+                <center>
+                    <h3>INPUT YOUR DATA FOR CALCULATOR</h3>
+                    <div class="container"></div>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                &nbsp; &nbsp;<label for="weight"> Weight </label>
+                                <input type="number" class="form-control"
+                                    placeholder="Kg.">
+                            </div>
+                            <div class="col">
+                                &nbsp; &nbsp; <label for="weight"> Height </label>
+                                <input type="number" class="form-control"
+                                    placeholder="Cm.">
+                            </div>
+                            <div class="col">
+                                &nbsp; &nbsp; <label for="weight"> Age </label>
+                                <input type="number" class="form-control"
+                                    placeholder="Year.">
+                            </div>
+                            <div class="health__calculate-sex">
+                                <div class="row">
+                                    <div class="col">
+                                        &nbsp; &nbsp; &nbsp; <p>Select Sex</p>
+                                        <input type="radio" id="male" name="gender"
+                                            value="male">
+                                        <label for="male"> Male </label> &nbsp; &nbsp;
+                                        &nbsp;
+                                        <input type="radio" id="Female" name="gender"
+                                            value="Female">
+                                        <label for="Female"> Female </label><br>
+                                    </div>
+                                    <br>
+                                   <center><br> <button type="button" class="btn btn-light" style="width:120px;height:40px">Calculate</button>
+                                    &nbsp; &nbsp; &nbsp;<button type="button" class="btn btn-danger" style="width:120px;height:40px">Reset</button>
+                                   <BR><BR>
+                                    <center><h3>Your calories burned
+                                        BMR (Basal Metabolic Rate)</h3>  <br>  
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend"></div>
+                                                <span class="input-group-text bg-white text-dark" color="white">calories</span>
+                                                <input type="text" class="form-control" aria-label="Amount (to
+                                                    the nearest dollar)">
+                                                <span class="input-group-text bg-white text-dark" color="white"" color="dark">per
+                                                    day</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                                                    <span class="input-group-text bg-white text-dark" color="white"" color="dark">
+                                                        BodyDeviationIndex</span>
+                                                    <input type="text" class="form-control" aria-label="Amount (to
+                                                        the nearest dollar)">
+                                                    <span class="input-group-text bg-white text-dark" color="white"" color="dark">.00</span>
+                                            </div><BR>
+                                </center>
+                                </div>
+                            </form><br>
+                        </div>
+                    </center>
+                        </div>
+                </center>
+            </div>
+            <br><br>
+            <div class="container">
+                <center><h1>
+                    BMI estimate for adults Table</h1><BR>
+                        <h5>This estimate is set by the WHO, the World Health Organization. Suggested suitable weight based on BMI, this formula can be used by both women and men aged 18 years and over.
+                        </h5>  <BR>
+                    <CENTER><table class="table">
+                        <thead class="thead-dark">
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="col">BMI</th>
+                            <th scope="col">Category</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">Less than 16</th>
+                            <td>Too thin</td>
+                           
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">16 -17</th>
+                            <td>Reasonably thin</td>
+                          
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">17 – 18.5</th>
+                            <td>thin</td>
+            
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">18.5 – 25</th>
+                            <td>
+                                In the normal range</td>
+            
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">25 – 30</th>
+                            <td>Overweight</td>
+            
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">30 – 35</th>
+                            <td>Overweight, level 1</td>
+            
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">35 – 40</th>
+                            <td>Overweight, level 2</td>
+            
+                          </tr>
+                          <tr>
+                            <th scope="col"</th>
+                            <th scope="row">
+                                More than 40</th>
+                            <td>Overweight, level 3</td>
+            
+                          </tr>
+                        </CENTER>
+                        </tbody>
+                      </table>
+                  </div><BR><BR>
+                    <div class="p-3 mb-2 bg-dark text-white">
+                        <h5></h5>
+                    </div>
+                  
             </body>
         </html>
